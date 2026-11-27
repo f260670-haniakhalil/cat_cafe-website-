@@ -156,6 +156,9 @@ background-color: var(--cream);
    margin-bottom: 8px;
    line-height: 1.5;
 }
+.home-cta{
+   margin-top: 40px;
+}
 .home-story{
    
    padding: 70px 40px;
@@ -197,6 +200,12 @@ transition: 0.3s;
 }
 .gallery-grid img:hover{
    transform: scale(1.05);
+}
+footer{
+   background-color: var(--green);
+   color: var(--light-cream);
+   padding: 40px 20px;
+   text-align: center;
 }
 @media (max-width: 768px) {
   .home-cards {
