@@ -45,6 +45,7 @@ a{
    display:flex;
    gap:25px;
    list-style:none;
+   color:var(--light-cream);
 }
 nav{
    display:flex;
@@ -53,6 +54,11 @@ align-items:center;
 padding: 20px;
 background-color: var(--green);
 }
+.nav-logo{
+   font-size: 24px;
+   font-weight:500;
+   color:var(--dark-green);
+}
 /* ==========================================
    4. FOOTER (Hania )
    ========================================== */
@@ -60,6 +66,31 @@ background-color: var(--green);
 /* ==========================================
    5. HOME PAGE (Hania)
    ========================================== */
+.home-hero{
+   padding:100px 20px;
+   text-align:center;
+   background-color: var(--light-cream);
+}
+.home-hro h1{
+   font-size: 48px;
+   margin-bottom: 30px;
+}
+.home-hero p{
+   font-size: 18px;
+   margin-bottom: 30px;
+}
+.home-btn{
+   display:inline-block;
+   padding: 12px 28px;
+   color:var(--light-cream);
+   background-color: var(--green);
+   border-radius: 25px;
+   transition: 0.3s;
+}
+.home-btn:hover{
+   color:var(--dark-green) ;
+}
+
 
 /* ==========================================
    6. MENU PAGE (Umer)
