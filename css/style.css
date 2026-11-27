@@ -48,6 +48,19 @@ a{
    color:var(--light-cream);
    font-weight: 500;
 }
+.nav-links a{
+   color: var(--light-cream);
+   transition: 0.3s;
+  
+}
+.nav-links a:hover{
+   text-decoration: underline;
+  color: var(--accent);
+  transform: translateY(-2px);
+ 
+}
+
+
 nav{
    display:flex;
 justify-content:space-between;
@@ -79,6 +92,7 @@ background-position: center;
    font-size: 48px;
    margin-bottom: 30px;
    text-shadow: 0 2px 8px rgba(0,0,0,0.4);
+   color: var(--light-cream);
 }
 .home-hero p{
    font-size: 18px;
@@ -93,13 +107,60 @@ background-position: center;
    transition: 0.3s;
 }
 .home-btn:hover{
-   color:var(--dark-green) ;
+   background-color: var(--light-cream);
+    color: var(--dark-green);
+    transform: translateY(-3px);
 }
 .change-c{
    color:var(--cream);
 }
+.home-hours{
+   padding: 70px 40px;
+text-align:center;
+background-color: var(--cream);
+}
+.info-card{
+   background-color: var(--light-cream);
+   padding:30px;
+   border-radius: 15px;
+   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+   transition: 0.3s;
+}
+.info-card:hover{
+   transform: translateY(-5px);
+   box-shadow: 0 8px 18px rgba(0,0,0,0.18);
+}
+.home-cards{
+   display:grid;
+   grid-template-columns: repeat(2,1fr);
+   gap:25px;
+   max-width: 900px;
+   margin:30px auto 0;
+   
+}
+.info-card h3{
+   color:var(--green);
+   font-size: 20px;
+   margin-bottom: 12px;
 
+}
+.info-card p{
+   line-height: 1.6;
 
+}
+.info-card ul{
+   text-align: left;
+   list-style: none;
+}
+.info-card li{
+   margin-bottom: 8px;
+   line-height: 1.5;
+}
+@media (max-width: 768px) {
+  .home-cards {
+    grid-template-columns: 1fr;
+  }
+}
 /* ==========================================
    6. MENU PAGE (Umer)
    ========================================== */
@@ -107,8 +168,7 @@ background-position: center;
    height: 100px;
    width: auto;
     mix-blend-mode: multiply;
-    height: 60px;
-    display:block;
+   
 
 }
 
