@@ -164,6 +164,25 @@ background-color: var(--cream);
 /* ==========================================
    6. MENU PAGE (Umer)
    ========================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+   /* ==========================================
+   7. About (Umer)
+   ========================================== */
 .nav-log img{
    height: 100px;
    width: auto;
@@ -209,7 +228,6 @@ background-color: var(--cream);
     top: 80%;
     margin: 0;
 }
-
 .main-container {
     display: flex;
     justify-content: center;
@@ -233,6 +251,9 @@ background-color: var(--cream);
     display: block;
     border-radius: 2px;
 }
+.container img cursor:hover{
+    zoom: 20%;
+}
 
 .card-content {
     padding: 12px;
@@ -254,12 +275,6 @@ background-color: var(--cream);
 
 .cat-info div {
     width: 50%;
-}
-
-.birthday {
-    text-align: right;
-    border-left: 1px solid #6F8464;
-    padding-left: 8px;
 }
 
 .cat-info span {
@@ -309,5 +324,5 @@ background-color: var(--cream);
     cursor: pointer;
 }
 /* ==========================================
-   7. CONTACT PAGE (Anoosha)
+   8. CONTACT PAGE (Anoosha)
    ========================================== */
