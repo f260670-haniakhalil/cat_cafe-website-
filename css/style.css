@@ -1,19 +1,58 @@
 /* ==========================================
    1. COLOURS AND VARIABLES (Hania)
    ========================================== */
-:root { 
 
- }
+:root {
+
+  --cream: #EFE2C6;
+  --green: #6F8464;
+
+  --dark-green: #3B4A34;
+  --light-cream: #FAF5E9;
+  --accent: #C9A66B;
+
+  /* Fonts */
+  --heading-font: 'Poppins', sans-serif;
+  --body-font: 'Poppins', sans-serif;
+}
+ 
 
 /* ==========================================
    2. GLOBAL STYLES (Hania )
+   
    ========================================== */
+   * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+   background-color : var(--cream);
+   color : var(--dark-green);
+   font-family: var(--body-font);
+}
+a{
+   text-decoration: none;
+   color: var(--dark-green);
+}
+
 
 
 /* ==========================================
    3. NAVBAR (Hania )
    ========================================== */
-
+.nav-links{
+   display:flex;
+   gap:25px;
+   list-style:none;
+}
+nav{
+   display:flex;
+justify-content:space-between;
+align-items:center;
+padding: 20px;
+background-color: var(--green);
+}
 /* ==========================================
    4. FOOTER (Hania )
    ========================================== */
