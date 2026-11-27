@@ -210,7 +210,163 @@ transition: 0.3s;
    6. MENU PAGE (Umer)
    ========================================== */
 
+.head-menu {
+   color: #3B4A34;
+   justify-self: center;
+}
 
+.menu-section {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 25px;
+    padding: 35px 5%;
+    background-color: #F8F1E3;
+}
+
+.menu-card {
+    grid-column: span 2;
+    background-color: #EFE5D0;
+    border: 1px solid #C6CEB8;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.menu-card:nth-child(4) {
+    grid-column: 2 / 4;
+}
+
+.menu-card:nth-child(5) {
+    grid-column: 4 / 6;
+}
+
+.menu-card:hover {
+    box-shadow: 0 5px 12px rgba(64, 81, 59, 0.2);
+}
+
+.menu-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+    background-color: #E8EBD9;
+}
+
+.menu-header h2 {
+    color: #40513B;
+    font-family: 'Playfair Display', serif;
+    font-size: 23px;
+    margin: 0;
+}
+
+.menu-icon {
+    background-color: #F8F1E3;
+    color: #6F8464;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-icon span {
+    font-size: 27px;
+}
+
+.menu-items {
+    padding: 15px 20px;
+}
+
+.menu-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 13px 5px;
+    border-bottom: 1px solid #D8DCCB;
+    color: #40513B;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.menu-row:hover {
+    background-color: #E8EBD9;
+    box-shadow: 0 2px 6px rgba(64, 81, 59, 0.15);
+    border-radius: 6px;
+}
+
+.menu-row span {
+    flex: 1;
+}
+
+.menu-row strong {
+    color: #6F8464;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.menu-row:last-child {
+    border-bottom: none;
+}
+
+.price-heading {
+    display: grid;
+    grid-template-columns: 1fr 65px 65px;
+    text-align: center;
+    padding: 10px 5px;
+    margin-bottom: 5px;
+    color: #6F8464;
+    font-size: 12px;
+    font-weight: 600;
+    border-bottom: 1px solid #C6CEB8;
+}
+
+.price-heading span:first-child {
+    text-align: left;
+}
+
+.latte-row {
+    display: grid;
+    grid-template-columns: 1fr 65px 65px;
+    gap: 5px;
+}
+
+.latte-row span {
+    text-align: left;
+}
+
+.latte-row strong {
+    text-align: center;
+}
+
+.menu-note {
+    text-align: center;
+    color: #6F8464;
+    font-size: 13px;
+    margin: 20px;
+}
+
+@media (max-width: 1000px) {
+    .menu-section {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .menu-card {
+        grid-column: auto;
+    }
+
+    .menu-card:nth-child(4),
+    .menu-card:nth-child(5) {
+        grid-column: auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .menu-section {
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+}
 
 
 
