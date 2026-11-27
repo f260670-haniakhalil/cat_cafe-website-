@@ -156,6 +156,26 @@ background-color: var(--cream);
    margin-bottom: 8px;
    line-height: 1.5;
 }
+.home-story{
+   
+   padding: 70px 40px;
+   text-align: center;
+   background-color: var(--green);
+
+}
+.home-story h2{
+   color:var(--light-cream);
+}
+.home-story p{
+   max-width: 700px;
+   margin: 0 auto 25px;
+   line-height: 1.7;
+   color:var(--light-cream);
+}
+.home-btn-light{
+   background-color: var(--light-cream);
+  color: var(--dark-green);
+}
 @media (max-width: 768px) {
   .home-cards {
     grid-template-columns: 1fr;
