@@ -46,6 +46,7 @@ a{
    gap:25px;
    list-style:none;
    color:var(--light-cream);
+   font-weight: 500;
 }
 nav{
    display:flex;
@@ -53,6 +54,7 @@ justify-content:space-between;
 align-items:center;
 padding: 20px;
 background-color: var(--green);
+transition: 0.3s;
 }
 .nav-logo{
    font-size: 24px;
@@ -69,11 +71,14 @@ background-color: var(--green);
 .home-hero{
    padding:100px 20px;
    text-align:center;
-   background-color: var(--light-cream);
+   background-image: linear-gradient(rgba(59, 74, 52, 0.5), rgba(59, 74, 52, 0.6)), url(../images/nav.jpg) ;
+background-size: cover;
+background-position: center;
 }
-.home-hro h1{
+.home-hero h1{
    font-size: 48px;
    margin-bottom: 30px;
+   text-shadow: 0 2px 8px rgba(0,0,0,0.4);
 }
 .home-hero p{
    font-size: 18px;
@@ -90,6 +95,9 @@ background-color: var(--green);
 .home-btn:hover{
    color:var(--dark-green) ;
 }
+.change-c{
+   color:var(--cream);
+}
 
 
 /* ==========================================
@@ -99,6 +107,8 @@ background-color: var(--green);
    height: 100px;
    width: auto;
     mix-blend-mode: multiply;
+    height: 60px;
+    display:block;
 
 }
 
