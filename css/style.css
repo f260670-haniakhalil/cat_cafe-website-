@@ -102,47 +102,43 @@ background-color: var(--green);
 
 }
 
-.hero-banner {
-    height: 200px;
-    width: 630px;
-    object-fit: cover;
-    display: block;
-}
-
 .hero {
     position: relative;
-    width: 630px;
+    width: 100%;
     height: 200px;
     overflow: hidden;
 }
 
-.hero img {
+.hero-banner {
     width: 100%;
     height: 100%;
+    object-fit: cover;
+    display: block;
 }
 
 .hero h1 {
     position: absolute;
-    left: 30%;
+    left: 40%;
     top: 40%;
     color: white;
     margin: 0;
 }
 
-.para1{
+.para1 {
     position: absolute;
-   color: white;
-    left: 10%;
+    color: white;
+    left: 30%;
     top: 65%;
+    margin: 0;
 }
+
 .para2 {
-       position: absolute;
-   color: white;
-    left: 44.5%;
-    top: 75%;
+    position: absolute;
+    color: white;
+    left: 47%;
+    top: 80%;
+    margin: 0;
 }
-
-
 /* ==========================================
    7. CONTACT PAGE (Anoosha)
    ========================================== */
